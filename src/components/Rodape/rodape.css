@@ -1,0 +1,28 @@
+.containerRodape {
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    background-color: #e7f6f2 ;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.containerRodape span {
+    font-size: 1.1em;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.containerRodape .iconsApp .linkedinIcon,
+.containerRodape .iconsApp .instagramIcon
+ {
+    height: 30px;
+    width: 30px;
+    margin-right: 1rem;
+    color: #252525;
+    font-weight: 500;
+}

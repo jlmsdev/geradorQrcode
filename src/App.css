@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: sans-serif;
+    background-color: #2c3333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container input {
+    width: 100%;
+    border: 1px solid red;
+    max-width: 500px;
+    height: 50px;
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+    margin: 3rem 0;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+
+
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #2c3333;
+    -webkit-box-shadow: 6px 6px 10px #1d2222, -6px -6px 10px #3b4444;
+    box-shadow: 6px 6px 10px #1d2222, -6px -6px 10px #3b4444;
+    transition: all .5s;
 }
 
-.App-link {
-  color: #61dafb;
+.container input::placeholder {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #2c3333;
+    -webkit-box-shadow: 6px 6px 10px #1d2222, -6px -6px 10px #3b4444;
+    box-shadow: 6px 6px 10px #1d2222, -6px -6px 10px #3b4444;
+    transition: all .5s;
 }
+
+.container a:hover {
+    transition: all .5s;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #2c3333;
+    -webkit-box-shadow: 15px 15px 21px #151818, -15px -15px 21px #434e4e;
+    box-shadow: 15px 15px 21px #151818, -15px -15px 21px #434e4e;
+}
+
+.container .iconQr {
+    width: 30px;
+    margin-left: 1rem;
+    height: 30px;
+    color: #fff;
+}
+
+.container .qrcodeImage {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #2c3333;
+    -webkit-box-shadow: 6px 6px 10px #1d2222, -6px -6px 10px #3b4444;
+    box-shadow: 6px 6px 10px #1d2222, -6px -6px 10px #3b4444;
+    transition: all .5s;
+}
+
